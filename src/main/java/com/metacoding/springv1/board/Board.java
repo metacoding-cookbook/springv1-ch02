@@ -4,18 +4,9 @@ import java.sql.Timestamp;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import jakarta.persistence.ManyToOne; // 추가
 import com.metacoding.springv1.user.User; // 추가
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.FetchType;
+import jakarta.persistence.*;
+import lombok.*;
 
 @NoArgsConstructor
 @Data
